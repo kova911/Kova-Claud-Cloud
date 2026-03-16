@@ -1,0 +1,533 @@
+{
+  "last_updated": "2026-03-12T15:45:59.007808",
+  "lookback_days": 30,
+  "total_trades_analyzed": 26,
+  "total_signals_analyzed": 884,
+  "by_strategy": {
+    "stale_fill": {
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "total_pnl": -5.2,
+      "avg_pnl": -2.6,
+      "avg_winner": 0,
+      "avg_loser": -2.6,
+      "profit_factor": 0.0
+    },
+    "zscore_reversion": {
+      "count": 13,
+      "wins": 4,
+      "losses": 9,
+      "win_rate": 0.308,
+      "total_pnl": -59.9,
+      "avg_pnl": -4.61,
+      "avg_winner": 1.74,
+      "avg_loser": -7.43,
+      "profit_factor": 0.1
+    },
+    "regime_adaptive": {
+      "count": 7,
+      "wins": 4,
+      "losses": 3,
+      "win_rate": 0.571,
+      "total_pnl": -8.91,
+      "avg_pnl": -1.27,
+      "avg_winner": 2.69,
+      "avg_loser": -6.56,
+      "profit_factor": 0.55
+    },
+    "momentum": {
+      "count": 4,
+      "wins": 0,
+      "losses": 4,
+      "win_rate": 0.0,
+      "total_pnl": -42.73,
+      "avg_pnl": -10.68,
+      "avg_winner": 0,
+      "avg_loser": -10.68,
+      "profit_factor": 0.0
+    }
+  },
+  "by_symbol": {
+    "BMW.DE": {
+      "count": 3,
+      "wins": 0,
+      "losses": 3,
+      "win_rate": 0.0,
+      "total_pnl": -14.9,
+      "avg_pnl": -4.97,
+      "avg_winner": 0,
+      "avg_loser": -4.97,
+      "profit_factor": 0.0
+    },
+    "BAS.DE": {
+      "count": 5,
+      "wins": 4,
+      "losses": 1,
+      "win_rate": 0.8,
+      "total_pnl": -5.19,
+      "avg_pnl": -1.04,
+      "avg_winner": 2.88,
+      "avg_loser": -16.69,
+      "profit_factor": 0.69
+    },
+    "IFX.DE": {
+      "count": 5,
+      "wins": 3,
+      "losses": 2,
+      "win_rate": 0.6,
+      "total_pnl": -24.5,
+      "avg_pnl": -4.9,
+      "avg_winner": 1.74,
+      "avg_loser": -14.86,
+      "profit_factor": 0.18
+    },
+    "SIE.DE": {
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "total_pnl": -21.6,
+      "avg_pnl": -10.8,
+      "avg_winner": 0,
+      "avg_loser": -10.8,
+      "profit_factor": 0.0
+    },
+    "ALV.DE": {
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "total_pnl": -23.0,
+      "avg_pnl": -11.5,
+      "avg_winner": 0,
+      "avg_loser": -11.5,
+      "profit_factor": 0.0
+    },
+    "TSLA": {
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "total_pnl": -3.24,
+      "avg_pnl": -1.62,
+      "avg_winner": 0,
+      "avg_loser": -1.62,
+      "profit_factor": 0.0
+    },
+    "SAP.DE": {
+      "count": 1,
+      "wins": 1,
+      "losses": 0,
+      "win_rate": 1.0,
+      "total_pnl": 1.02,
+      "avg_pnl": 1.02,
+      "avg_winner": 1.02,
+      "avg_loser": 0,
+      "profit_factor": Infinity
+    },
+    "NVDA": {
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "total_pnl": -6.13,
+      "avg_pnl": -3.06,
+      "avg_winner": 0,
+      "avg_loser": -3.06,
+      "profit_factor": 0.0
+    },
+    "MSFT": {
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "total_pnl": -2.5,
+      "avg_pnl": -2.5,
+      "avg_winner": 0,
+      "avg_loser": -2.5,
+      "profit_factor": 0.0
+    },
+    "AIR.DE": {
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "total_pnl": -11.52,
+      "avg_pnl": -11.52,
+      "avg_winner": 0,
+      "avg_loser": -11.52,
+      "profit_factor": 0.0
+    },
+    "AMZN": {
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "total_pnl": -2.5,
+      "avg_pnl": -2.5,
+      "avg_winner": 0,
+      "avg_loser": -2.5,
+      "profit_factor": 0.0
+    },
+    "GOOGL": {
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "total_pnl": -2.68,
+      "avg_pnl": -2.68,
+      "avg_winner": 0,
+      "avg_loser": -2.68,
+      "profit_factor": 0.0
+    }
+  },
+  "by_direction": {
+    "LONG": {
+      "count": 18,
+      "wins": 6,
+      "losses": 12,
+      "win_rate": 0.333,
+      "total_pnl": -67.8,
+      "avg_pnl": -3.77,
+      "avg_winner": 2.56,
+      "avg_loser": -6.93,
+      "profit_factor": 0.18
+    },
+    "SHORT": {
+      "count": 8,
+      "wins": 2,
+      "losses": 6,
+      "win_rate": 0.25,
+      "total_pnl": -48.94,
+      "avg_pnl": -6.12,
+      "avg_winner": 1.2,
+      "avg_loser": -8.55,
+      "profit_factor": 0.05
+    }
+  },
+  "by_confidence": {
+    "low_40-59": {
+      "count": 19,
+      "win_rate": 0.316,
+      "avg_pnl": -3.26,
+      "total_pnl": -61.95
+    },
+    "medium_60-79": {
+      "count": 7,
+      "win_rate": 0.286,
+      "avg_pnl": -7.83,
+      "total_pnl": -54.79
+    }
+  },
+  "by_regime": {
+    "ranging": {
+      "count": 22,
+      "wins": 8,
+      "losses": 14,
+      "win_rate": 0.364,
+      "total_pnl": -74.01,
+      "avg_pnl": -3.36,
+      "avg_winner": 2.22,
+      "avg_loser": -6.55,
+      "profit_factor": 0.19
+    },
+    "trending_up": {
+      "count": 4,
+      "wins": 0,
+      "losses": 4,
+      "win_rate": 0.0,
+      "total_pnl": -42.73,
+      "avg_pnl": -10.68,
+      "avg_winner": 0,
+      "avg_loser": -10.68,
+      "profit_factor": 0.0
+    }
+  },
+  "by_exit_reason": {
+    "tp": {
+      "count": 10,
+      "wins": 7,
+      "losses": 3,
+      "win_rate": 0.7,
+      "total_pnl": 11.42,
+      "avg_pnl": 1.14,
+      "avg_winner": 2.45,
+      "avg_loser": -1.9,
+      "profit_factor": 3.0
+    },
+    "sl": {
+      "count": 7,
+      "wins": 0,
+      "losses": 7,
+      "win_rate": 0.0,
+      "total_pnl": -104.83,
+      "avg_pnl": -14.98,
+      "avg_winner": 0,
+      "avg_loser": -14.98,
+      "profit_factor": 0.0
+    },
+    "time": {
+      "count": 8,
+      "wins": 0,
+      "losses": 8,
+      "win_rate": 0.0,
+      "total_pnl": -23.95,
+      "avg_pnl": -2.99,
+      "avg_winner": 0,
+      "avg_loser": -2.99,
+      "profit_factor": 0.0
+    },
+    "trail": {
+      "count": 1,
+      "wins": 1,
+      "losses": 0,
+      "win_rate": 1.0,
+      "total_pnl": 0.62,
+      "avg_pnl": 0.62,
+      "avg_winner": 0.62,
+      "avg_loser": 0,
+      "profit_factor": Infinity
+    }
+  },
+  "by_hour": {
+    "9": {
+      "count": 4,
+      "wins": 1,
+      "losses": 3,
+      "win_rate": 0.25,
+      "total_pnl": -28.13,
+      "avg_pnl": -7.03,
+      "avg_winner": 3.95,
+      "avg_loser": -10.69,
+      "profit_factor": 0.12
+    },
+    "10": {
+      "count": 3,
+      "wins": 1,
+      "losses": 2,
+      "win_rate": 0.333,
+      "total_pnl": -24.65,
+      "avg_pnl": -8.22,
+      "avg_winner": 4.38,
+      "avg_loser": -14.52,
+      "profit_factor": 0.15
+    },
+    "11": {
+      "count": 4,
+      "wins": 3,
+      "losses": 1,
+      "win_rate": 0.75,
+      "total_pnl": 3.29,
+      "avg_pnl": 0.82,
+      "avg_winner": 1.26,
+      "avg_loser": -0.5,
+      "profit_factor": 7.58
+    },
+    "13": {
+      "count": 1,
+      "wins": 1,
+      "losses": 0,
+      "win_rate": 1.0,
+      "total_pnl": 2.78,
+      "avg_pnl": 2.78,
+      "avg_winner": 2.78,
+      "avg_loser": 0,
+      "profit_factor": Infinity
+    },
+    "14": {
+      "count": 5,
+      "wins": 2,
+      "losses": 3,
+      "win_rate": 0.4,
+      "total_pnl": -15.1,
+      "avg_pnl": -3.02,
+      "avg_winner": 1.42,
+      "avg_loser": -5.98,
+      "profit_factor": 0.16
+    },
+    "15": {
+      "count": 3,
+      "wins": 0,
+      "losses": 3,
+      "win_rate": 0.0,
+      "total_pnl": -31.4,
+      "avg_pnl": -10.47,
+      "avg_winner": 0,
+      "avg_loser": -10.47,
+      "profit_factor": 0.0
+    },
+    "16": {
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "total_pnl": -6.15,
+      "avg_pnl": -3.08,
+      "avg_winner": 0,
+      "avg_loser": -3.08,
+      "profit_factor": 0.0
+    },
+    "18": {
+      "count": 3,
+      "wins": 0,
+      "losses": 3,
+      "win_rate": 0.0,
+      "total_pnl": -7.68,
+      "avg_pnl": -2.56,
+      "avg_winner": 0,
+      "avg_loser": -2.56,
+      "profit_factor": 0.0
+    },
+    "17": {
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "total_pnl": -9.7,
+      "avg_pnl": -9.7,
+      "avg_winner": 0,
+      "avg_loser": -9.7,
+      "profit_factor": 0.0
+    }
+  },
+  "by_day": {
+    "Thursday": {
+      "count": 4,
+      "wins": 1,
+      "losses": 3,
+      "win_rate": 0.25,
+      "total_pnl": -27.76,
+      "avg_pnl": -6.94,
+      "avg_winner": 3.95,
+      "avg_loser": -10.57,
+      "profit_factor": 0.12
+    },
+    "Wednesday": {
+      "count": 20,
+      "wins": 7,
+      "losses": 13,
+      "win_rate": 0.35,
+      "total_pnl": -75.65,
+      "avg_pnl": -3.78,
+      "avg_winner": 1.97,
+      "avg_loser": -6.88,
+      "profit_factor": 0.15
+    },
+    "Tuesday": {
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "total_pnl": -13.33,
+      "avg_pnl": -6.66,
+      "avg_winner": 0,
+      "avg_loser": -6.66,
+      "profit_factor": 0.0
+    }
+  },
+  "by_vix_range": {
+    "elevated_20-25": {
+      "count": 11,
+      "win_rate": 0.273,
+      "avg_pnl": -3.99
+    },
+    "high_25-30": {
+      "count": 15,
+      "win_rate": 0.333,
+      "avg_pnl": -4.86
+    }
+  },
+  "duration_stats": {
+    "avg_duration_min": 188.8,
+    "avg_winner_duration_min": 45.4,
+    "avg_loser_duration_min": 252.5,
+    "shortest_min": 0.5,
+    "longest_min": 1027.7
+  },
+  "signal_quality": {
+    "total_signals": 575,
+    "by_action": {
+      "executed": 121,
+      "skipped": 269,
+      "filtered": 185
+    },
+    "execution_rate": 0.21,
+    "filter_rate": 0.322
+  },
+  "slippage_stats": {
+    "avg_slippage": 0.0502,
+    "max_adverse_slippage": -0.3,
+    "max_favorable_slippage": 0.9874,
+    "zero_slippage_pct": 0.423
+  },
+  "best_symbols": [
+    {
+      "symbol": "SAP.DE",
+      "total_pnl": 1.02,
+      "trades": 1
+    },
+    {
+      "symbol": "MSFT",
+      "total_pnl": -2.5,
+      "trades": 1
+    },
+    {
+      "symbol": "AMZN",
+      "total_pnl": -2.5,
+      "trades": 1
+    },
+    {
+      "symbol": "GOOGL",
+      "total_pnl": -2.68,
+      "trades": 1
+    },
+    {
+      "symbol": "TSLA",
+      "total_pnl": -3.24,
+      "trades": 2
+    }
+  ],
+  "worst_symbols": [
+    {
+      "symbol": "IFX.DE",
+      "total_pnl": -24.5,
+      "trades": 5
+    },
+    {
+      "symbol": "ALV.DE",
+      "total_pnl": -23.0,
+      "trades": 2
+    },
+    {
+      "symbol": "SIE.DE",
+      "total_pnl": -21.6,
+      "trades": 2
+    },
+    {
+      "symbol": "BMW.DE",
+      "total_pnl": -14.9,
+      "trades": 3
+    },
+    {
+      "symbol": "AIR.DE",
+      "total_pnl": -11.52,
+      "trades": 1
+    }
+  ],
+  "streaks": {
+    "max_win_streak": 4,
+    "max_loss_streak": 9
+  },
+  "insights": [
+    "WEAKNESS: zscore_reversion strategy has only 31% win rate over 13 trades \u2014 consider parameter tuning",
+    "CAUTION: LONG trades underperforming (33% win rate). Consider reducing LONG exposure.",
+    "CAUTION: SHORT trades underperforming (25% win rate). Consider reducing SHORT exposure.",
+    "TOP PERFORMER: SAP.DE with +1.02 total P&L over 1 trades",
+    "UNDERPERFORMER: IFX.DE with -24.50 total P&L \u2014 consider removing from watchlist",
+    "VIX WARNING: Poor performance in elevated 20-25 VIX (27% win rate) \u2014 tighten filters",
+    "TIMING: Losers held 252min avg vs winners 45min \u2014 consider tighter time exits",
+    "DRAWDOWN: Max losing streak of 9 trades \u2014 risk of tilt, ensure circuit breakers are active"
+  ]
+}

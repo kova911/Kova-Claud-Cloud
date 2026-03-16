@@ -1,0 +1,178 @@
+{
+  "timestamp": "20260311_000850",
+  "phase1_combos": 792,
+  "phase1_elapsed_s": 29.124952,
+  "phase2_validated": 20,
+  "best_params": {
+    "zscore_lookback": 20,
+    "min_composite_score": 0.5,
+    "atr_stop_multiplier": 2.5,
+    "atr_tp_multiplier": 1.0,
+    "volume_surge_threshold": 1.5
+  },
+  "best_stats": {
+    "total_trades": 49,
+    "wins": 41,
+    "losses": 8,
+    "win_rate": 0.837,
+    "total_pnl": -35.64,
+    "avg_pnl": -0.73,
+    "profit_factor": 0.51,
+    "symbols_profitable": 4,
+    "symbols_total": 9
+  },
+  "best_per_symbol": {
+    "SAP.DE": {
+      "trades": 8,
+      "pnl": 3.08,
+      "wr": 0.88
+    },
+    "SIE.DE": {
+      "trades": 7,
+      "pnl": -19.78,
+      "wr": 0.71
+    },
+    "ALV.DE": {
+      "trades": 2,
+      "pnl": 0.79,
+      "wr": 1.0
+    },
+    "BAS.DE": {
+      "trades": 4,
+      "pnl": 6.85,
+      "wr": 1.0
+    },
+    "BMW.DE": {
+      "trades": 6,
+      "pnl": -25.25,
+      "wr": 0.67
+    },
+    "MBG.DE": {
+      "trades": 6,
+      "pnl": -4.0,
+      "wr": 0.83
+    },
+    "AIR.DE": {
+      "trades": 0,
+      "pnl": 0,
+      "wr": 0
+    },
+    "ADS.DE": {
+      "trades": 5,
+      "pnl": -23.15,
+      "wr": 0.6
+    },
+    "IFX.DE": {
+      "trades": 11,
+      "pnl": 25.82,
+      "wr": 1.0
+    }
+  },
+  "top_5": [
+    {
+      "rank": 1,
+      "params": {
+        "zscore_lookback": 20,
+        "min_composite_score": 0.5,
+        "atr_stop_multiplier": 2.5,
+        "atr_tp_multiplier": 1.0,
+        "volume_surge_threshold": 1.5
+      },
+      "stats": {
+        "total_trades": 49,
+        "wins": 41,
+        "losses": 8,
+        "win_rate": 0.837,
+        "total_pnl": -35.64,
+        "avg_pnl": -0.73,
+        "profit_factor": 0.51,
+        "symbols_profitable": 4,
+        "symbols_total": 9
+      }
+    },
+    {
+      "rank": 2,
+      "params": {
+        "zscore_lookback": 20,
+        "min_composite_score": 0.5,
+        "atr_stop_multiplier": 2.5,
+        "atr_tp_multiplier": 0.8,
+        "volume_surge_threshold": 1.2
+      },
+      "stats": {
+        "total_trades": 34,
+        "wins": 30,
+        "losses": 4,
+        "win_rate": 0.882,
+        "total_pnl": -17.94,
+        "avg_pnl": -0.53,
+        "profit_factor": 0.6,
+        "symbols_profitable": 4,
+        "symbols_total": 9
+      }
+    },
+    {
+      "rank": 3,
+      "params": {
+        "zscore_lookback": 20,
+        "min_composite_score": 0.45,
+        "atr_stop_multiplier": 2.5,
+        "atr_tp_multiplier": 0.8,
+        "volume_surge_threshold": 1.2
+      },
+      "stats": {
+        "total_trades": 72,
+        "wins": 59,
+        "losses": 13,
+        "win_rate": 0.819,
+        "total_pnl": -112.84,
+        "avg_pnl": -1.57,
+        "profit_factor": 0.02,
+        "symbols_profitable": 2,
+        "symbols_total": 9
+      }
+    },
+    {
+      "rank": 4,
+      "params": {
+        "zscore_lookback": 30,
+        "min_composite_score": 0.45,
+        "atr_stop_multiplier": 2.5,
+        "atr_tp_multiplier": 0.8,
+        "volume_surge_threshold": 1.2
+      },
+      "stats": {
+        "total_trades": 51,
+        "wins": 40,
+        "losses": 11,
+        "win_rate": 0.784,
+        "total_pnl": -103.25,
+        "avg_pnl": -2.02,
+        "profit_factor": 0.13,
+        "symbols_profitable": 2,
+        "symbols_total": 9
+      }
+    },
+    {
+      "rank": 5,
+      "params": {
+        "zscore_lookback": 50,
+        "min_composite_score": 0.4,
+        "atr_stop_multiplier": 2.5,
+        "atr_tp_multiplier": 0.8,
+        "volume_surge_threshold": 1.2
+      },
+      "stats": {
+        "total_trades": 102,
+        "wins": 80,
+        "losses": 22,
+        "win_rate": 0.784,
+        "total_pnl": -207.03,
+        "avg_pnl": -2.03,
+        "profit_factor": 0.08,
+        "symbols_profitable": 3,
+        "symbols_total": 9
+      }
+    }
+  ]
+}

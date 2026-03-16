@@ -1,0 +1,107 @@
+[
+  {
+    "generated_at": "2026-03-11T15:22:03.230944",
+    "total_closed_trades": 17,
+    "overall_win_rate": 0.4118,
+    "overall_pnl": -61.4,
+    "n_symbol_adjustments": 0,
+    "n_hour_adjustments": 1,
+    "n_strategy_adjustments": 2,
+    "n_risk_adjustments": 2,
+    "meta_notes": [
+      "System unprofitable: 41% WR, \u20ac-61.40 \u2014 needs attention",
+      "SHORTs underperforming: 33% WR, \u20ac-14.87",
+      "Low sample size (17 trades) \u2014 insights may not be statistically significant"
+    ]
+  },
+  {
+    "generated_at": "2026-03-11T15:22:36.346804",
+    "total_closed_trades": 17,
+    "overall_win_rate": 0.4118,
+    "overall_pnl": -61.4,
+    "n_symbol_adjustments": 0,
+    "n_hour_adjustments": 1,
+    "n_strategy_adjustments": 2,
+    "n_risk_adjustments": 2,
+    "meta_notes": [
+      "System unprofitable: 41% WR, \u20ac-61.40 \u2014 needs attention",
+      "SHORTs underperforming: 33% WR, \u20ac-14.87",
+      "Low sample size (17 trades) \u2014 insights may not be statistically significant"
+    ]
+  },
+  {
+    "generated_at": "2026-03-11T16:09:05.601290",
+    "total_closed_trades": 40,
+    "overall_win_rate": 0.175,
+    "overall_pnl": -78.78,
+    "n_symbol_adjustments": 7,
+    "n_hour_adjustments": 5,
+    "n_strategy_adjustments": 5,
+    "n_risk_adjustments": 2,
+    "meta_notes": [
+      "System unprofitable: 18% WR, \u20ac-78.78 \u2014 needs attention",
+      "LONGs underperforming: 22% WR, \u20ac-46.53",
+      "SHORTs underperforming: 12% WR, \u20ac-32.25"
+    ]
+  },
+  {
+    "generated_at": "2026-03-11T16:15:58.779392",
+    "total_closed_trades": 40,
+    "overall_win_rate": 0.175,
+    "overall_pnl": -78.78,
+    "n_symbol_adjustments": 7,
+    "n_hour_adjustments": 5,
+    "n_strategy_adjustments": 5,
+    "n_risk_adjustments": 2,
+    "meta_notes": [
+      "System unprofitable: 18% WR, \u20ac-78.78 \u2014 needs attention",
+      "LONGs underperforming: 22% WR, \u20ac-46.53",
+      "SHORTs underperforming: 12% WR, \u20ac-32.25"
+    ]
+  },
+  {
+    "generated_at": "2026-03-11T21:00:41.068773",
+    "total_closed_trades": 43,
+    "overall_win_rate": 0.1628,
+    "overall_pnl": -86.46,
+    "n_symbol_adjustments": 7,
+    "n_hour_adjustments": 6,
+    "n_strategy_adjustments": 5,
+    "n_risk_adjustments": 2,
+    "meta_notes": [
+      "System unprofitable: 16% WR, \u20ac-86.46 \u2014 needs attention",
+      "LONGs underperforming: 19% WR, \u20ac-54.21",
+      "SHORTs underperforming: 12% WR, \u20ac-32.25"
+    ]
+  },
+  {
+    "generated_at": "2026-03-12T09:23:56.715979",
+    "total_closed_trades": 43,
+    "overall_win_rate": 0.1628,
+    "overall_pnl": -86.46,
+    "n_symbol_adjustments": 7,
+    "n_hour_adjustments": 6,
+    "n_strategy_adjustments": 5,
+    "n_risk_adjustments": 2,
+    "meta_notes": [
+      "System unprofitable: 16% WR, \u20ac-86.46 \u2014 needs attention",
+      "LONGs underperforming: 19% WR, \u20ac-54.21",
+      "SHORTs underperforming: 12% WR, \u20ac-32.25"
+    ]
+  },
+  {
+    "generated_at": "2026-03-12T15:45:59.098695",
+    "total_closed_trades": 46,
+    "overall_win_rate": 0.1739,
+    "overall_pnl": -111.54,
+    "n_symbol_adjustments": 7,
+    "n_hour_adjustments": 7,
+    "n_strategy_adjustments": 4,
+    "n_risk_adjustments": 2,
+    "meta_notes": [
+      "System unprofitable: 17% WR, \u20ac-111.54 \u2014 needs attention",
+      "LONGs underperforming: 21% WR, \u20ac-62.60",
+      "SHORTs underperforming: 11% WR, \u20ac-48.94"
+    ]
+  }
+]

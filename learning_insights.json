@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-03-12T15:45:59.098695",
+  "lookback_days": 30,
+  "total_trades_analyzed": 46,
+  "total_closed_trades": 46,
+  "overall_win_rate": 0.1739,
+  "overall_pnl": -111.54,
+  "symbol_adjustments": [
+    {
+      "symbol": "ALV.DE",
+      "weight": 0.3,
+      "reason": "low win rate 0%; unprofitable (\u20ac-23.0 total)",
+      "trade_count": 4,
+      "win_rate": 0.0,
+      "avg_pnl": -11.5,
+      "expires": "2026-03-26"
+    },
+    {
+      "symbol": "DTE.DE",
+      "weight": 0.5,
+      "reason": "low win rate 0%",
+      "trade_count": 3,
+      "win_rate": 0.0,
+      "avg_pnl": NaN,
+      "expires": "2026-03-26"
+    },
+    {
+      "symbol": "IFX.DE",
+      "weight": 0.6,
+      "reason": "below-avg win rate 43%; unprofitable (\u20ac-24.5 total)",
+      "trade_count": 7,
+      "win_rate": 0.4286,
+      "avg_pnl": -4.9,
+      "expires": "2026-03-26"
+    },
+    {
+      "symbol": "MBG.DE",
+      "weight": 0.5,
+      "reason": "low win rate 0%",
+      "trade_count": 3,
+      "win_rate": 0.0,
+      "avg_pnl": NaN,
+      "expires": "2026-03-26"
+    },
+    {
+      "symbol": "MSFT",
+      "weight": 0.5,
+      "reason": "low win rate 0%",
+      "trade_count": 3,
+      "win_rate": 0.0,
+      "avg_pnl": -2.5,
+      "expires": "2026-03-26"
+    },
+    {
+      "symbol": "NVDA",
+      "weight": 0.5,
+      "reason": "low win rate 0%",
+      "trade_count": 3,
+      "win_rate": 0.0,
+      "avg_pnl": -3.06,
+      "expires": "2026-03-26"
+    },
+    {
+      "symbol": "SIE.DE",
+      "weight": 0.3,
+      "reason": "low win rate 0%; unprofitable (\u20ac-21.6 total)",
+      "trade_count": 4,
+      "win_rate": 0.0,
+      "avg_pnl": -10.8,
+      "expires": "2026-03-26"
+    }
+  ],
+  "hour_adjustments": [
+    {
+      "hour": 9,
+      "weight": 0.6,
+      "reason": "hour 9: poor win rate 25%",
+      "trade_count": 4,
+      "win_rate": 0.25
+    },
+    {
+      "hour": 11,
+      "weight": 0.6,
+      "reason": "hour 11: poor win rate 20%",
+      "trade_count": 10,
+      "win_rate": 0.2
+    },
+    {
+      "hour": 13,
+      "weight": 0.6,
+      "reason": "hour 13: poor win rate 25%",
+      "trade_count": 4,
+      "win_rate": 0.25
+    },
+    {
+      "hour": 14,
+      "weight": 0.6,
+      "reason": "hour 14: poor win rate 33%",
+      "trade_count": 6,
+      "win_rate": 0.3333
+    },
+    {
+      "hour": 15,
+      "weight": 0.6,
+      "reason": "hour 15: poor win rate 0%",
+      "trade_count": 8,
+      "win_rate": 0.0
+    },
+    {
+      "hour": 16,
+      "weight": 0.6,
+      "reason": "hour 16: poor win rate 0%",
+      "trade_count": 6,
+      "win_rate": 0.0
+    },
+    {
+      "hour": 18,
+      "weight": 0.6,
+      "reason": "hour 18: poor win rate 0%",
+      "trade_count": 3,
+      "win_rate": 0.0
+    }
+  ],
+  "strategy_adjustments": [
+    {
+      "strategy": "mean_reversion",
+      "regime": "ranging",
+      "confidence_boost": -0.1,
+      "reason": "mean_reversion/ranging: weak (0% WR, \u20acnan/trade)",
+      "trade_count": 3,
+      "win_rate": 0.0
+    },
+    {
+      "strategy": "momentum",
+      "regime": "trending_down",
+      "confidence_boost": -0.1,
+      "reason": "momentum/trending_down: weak (0% WR, \u20acnan/trade)",
+      "trade_count": 5,
+      "win_rate": 0.0
+    },
+    {
+      "strategy": "momentum",
+      "regime": "trending_up",
+      "confidence_boost": -0.1,
+      "reason": "momentum/trending_up: weak (0% WR, \u20ac-11.5/trade)",
+      "trade_count": 14,
+      "win_rate": 0.0
+    },
+    {
+      "strategy": "zscore_reversion",
+      "regime": "ranging",
+      "confidence_boost": -0.1,
+      "reason": "zscore_reversion/ranging: weak (25% WR, \u20ac-3.8/trade)",
+      "trade_count": 16,
+      "win_rate": 0.25
+    }
+  ],
+  "risk_adjustments": [
+    {
+      "parameter": "cooldown_after_loss",
+      "suggested_value": 180,
+      "current_value": 120,
+      "reason": "Max 7 consecutive losses \u2014 increase cooldown"
+    },
+    {
+      "parameter": "risk_per_trade",
+      "suggested_value": 0.003,
+      "current_value": 0.005,
+      "reason": "Low overall win rate (17%) \u2014 reduce risk per trade"
+    }
+  ],
+  "exit_reason_insights": [
+    {
+      "exit_reason": "orphaned_cleanup",
+      "count": 22,
+      "pct": 0.4783,
+      "avg_pnl": NaN,
+      "avg_duration_min": 0,
+      "assessment": "Exit reason 'orphaned_cleanup': avg PnL \u20acnan"
+    },
+    {
+      "exit_reason": "time",
+      "count": 8,
+      "pct": 0.1739,
+      "avg_pnl": -2.99,
+      "avg_duration_min": 394.0,
+      "assessment": "Exit reason 'time': avg PnL \u20ac-2.99"
+    },
+    {
+      "exit_reason": "tp",
+      "count": 8,
+      "pct": 0.1739,
+      "avg_pnl": 2.08,
+      "avg_duration_min": 37.8,
+      "assessment": "Exit reason 'tp': avg PnL \u20ac2.08"
+    },
+    {
+      "exit_reason": "sl",
+      "count": 7,
+      "pct": 0.1522,
+      "avg_pnl": -14.98,
+      "avg_duration_min": 190.8,
+      "assessment": "Exit reason 'sl': avg PnL \u20ac-14.98"
+    },
+    {
+      "exit_reason": "trail",
+      "count": 1,
+      "pct": 0.0217,
+      "avg_pnl": 0.62,
+      "avg_duration_min": 117.7,
+      "assessment": "Exit reason 'trail': avg PnL \u20ac0.62"
+    }
+  ],
+  "meta_notes": [
+    "System unprofitable: 17% WR, \u20ac-111.54 \u2014 needs attention",
+    "LONGs underperforming: 21% WR, \u20ac-62.60",
+    "SHORTs underperforming: 11% WR, \u20ac-48.94",
+    "Performance IMPROVING: WR 0% \u2192 35%"
+  ],
+  "previous_recommendation_results": [
+    {
+      "period": "since 2026-03-12",
+      "previous_win_rate": 0.1628,
+      "current_win_rate": 0.1739,
+      "win_rate_delta": 0.0111,
+      "pnl_delta": -25.08,
+      "assessment": "neutral",
+      "note": "No significant change"
+    }
+  ]
+}
